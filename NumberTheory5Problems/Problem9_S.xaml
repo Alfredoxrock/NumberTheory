@@ -1,0 +1,27 @@
+﻿<Window x:Class="NumberTheory5Problems.Problem9_S"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NumberTheory5Problems"
+        mc:Ignorable="d"
+        Title="Problem9_S" Height="800" Width="1250" WindowState="Maximized">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="MathWP.jpg"/>
+        </Grid.Background>
+        <ScrollViewer Margin="154,111,84,296.5">
+            <StackPanel>
+                <TextBlock x:Name="Textbox_Output" FontSize="15" HorizontalAlignment="Left" Margin="50,0,0,0" TextWrapping="Wrap" Text="WAITING FOR USER TO INSERT VALUES" Padding="20,20,20,20" VerticalAlignment="Top" Height="auto" Width="906" Background="Black" Foreground="#FF00FF17" FontFamily="Courier New"/>
+            </StackPanel>
+        </ScrollViewer>
+        <Label Content="PROBLEM 12" HorizontalAlignment="Center" VerticalAlignment="top" FontSize="90" Background="{x:Null}" FontFamily="Army Buster" Foreground="#FFF6FFED" Height="111" Margin="433,0,404,0" Width="408"/>
+        <TextBox x:Name="Textbox_a" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Black" FontSize="25" HorizontalAlignment="Left" Margin="154,698,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="50" Width="315" Foreground="#FF29FF00" FontFamily="Courier New"/>
+        <Button x:Name="Button_Next" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="RUN" FontSize="25" HorizontalAlignment="Left" Margin="912,634,0,0" VerticalAlignment="Top" Width="249" Height="50" Click="Button_Next_Click"/>
+        <TextBox x:Name="Textbox_p" Background="Black" FontSize="25" HorizontalAlignment="Left" Margin="504,698,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="50" Width="315" Foreground="#FF29FF00" FontFamily="Courier New"/>
+        <Label x:Name="Label_n" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="MAX A" Background="White" FontSize="25" HorizontalAlignment="Left" Margin="154,634,0,0" VerticalAlignment="Top" Height="50" Width="315" Foreground="Black" FontFamily="Courier New" FontWeight="Bold"/>
+        <Label x:Name="Label_n_Copy" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="PRIME" Background="White" FontSize="25" HorizontalAlignment="Left" Margin="504,634,0,0" VerticalAlignment="Top" Height="50" Width="315" Foreground="Black" FontFamily="Courier New" FontWeight="Bold"/>
+        <Button x:Name="Button_Next1" Content="NEXT" FontSize="25" HorizontalAlignment="Left" Margin="912,698,0,0" VerticalAlignment="Top" Width="249" Height="50" Background="#FF0B5719" Click="Button_Next1_Click"/>
+        
+    </Grid>
+</Window>

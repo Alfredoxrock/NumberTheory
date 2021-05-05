@@ -1,0 +1,26 @@
+﻿<Window x:Class="NumberTheory5Problems.Problem3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NumberTheory5Problems"
+        mc:Ignorable="d"
+        Title="Problem3" Height="800" Width="1250" WindowState="Maximized">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="MathWP.jpg"/>
+        </Grid.Background>
+        <Label Content="PROBLEM 3" HorizontalAlignment="Center" VerticalAlignment="top" FontSize="90" Background="{x:Null}" FontFamily="Army Buster" Foreground="#FFF6FFED" Height="111" Margin="343,0"/>
+        <TextBlock x:Name="Textbox_Output" FontSize="15" HorizontalAlignment="Left" Margin="154,152,0,0" TextWrapping="Wrap" Text="WAITING FOR USER" Padding="20,20,20,20" VerticalAlignment="Top" Height="477" Width="1007" Background="Black" Foreground="#FF00FF17" FontFamily="Courier New"/>
+        <Button x:Name="Button_Next" Content="RUN" FontSize="25" HorizontalAlignment="Left" Margin="912,649,0,0" VerticalAlignment="Top" Width="249" Height="50" Click="Button_Next_Click"/>
+        <TextBox x:Name="TextBox_n" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Black" FontSize="25" HorizontalAlignment="Left" Margin="154,649,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="50" Width="732" Foreground="#FF29FF00" FontFamily="Courier New"/>
+        <Label x:Name="Label_n" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="N" Background="White" FontSize="25" HorizontalAlignment="Left" Margin="154,704,0,0" VerticalAlignment="Top" Height="50" Width="67" Foreground="Black" FontFamily="Courier New" FontWeight="Bold"/>
+        <TextBox x:Name="Textbox_nn" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Black" FontSize="25" HorizontalAlignment="Left" Margin="226,704,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="50" Width="199" Foreground="#FF29FF00" FontFamily="Courier New"/>
+        <Label x:Name="Label_n_Copy" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="K" Background="White" FontSize="25" HorizontalAlignment="Left" Margin="446,704,0,0" VerticalAlignment="Top" Height="50" Width="67" Foreground="Black" FontFamily="Courier New" FontWeight="Bold"/>
+        <TextBox x:Name="Textbox_k" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Black" FontSize="25" HorizontalAlignment="Left" Margin="518,704,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="50" Width="199" Foreground="#FF29FF00" FontFamily="Courier New"/>
+        <Button x:Name="Button_Check" Content="CHECK" FontSize="25" HorizontalAlignment="Left" Margin="738,704,0,0" VerticalAlignment="Top" Width="148" Height="50" Click="Button_Check_Click"/>
+        <Button x:Name="Button_Next1" Content="NEXT" FontSize="25" HorizontalAlignment="Left" Margin="912,704,0,0" VerticalAlignment="Top" Width="249" Height="50" Click="Button_Next1_Click" Background="#FF0B5719" />
+
+
+    </Grid>
+</Window>

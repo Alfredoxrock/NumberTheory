@@ -1,0 +1,24 @@
+﻿<Window x:Class="NumberTheory5Problems.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NumberTheory5Problems"
+        mc:Ignorable="d"
+        Title="Number Theory" Height="1824" Width="2736" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Grid x:Name="Grid">
+        <Grid.Background>
+            <ImageBrush ImageSource="MathWP.jpg"/>
+        </Grid.Background>
+        <Label Content="NUMBER THEORY" HorizontalAlignment="Center" VerticalAlignment="top" FontSize="90" Background="{x:Null}" FontFamily="Army Buster" Foreground="#FFF6FFED" Height="206" />
+        <Image HorizontalAlignment="Left" Height="1585" Margin="188,211,0,0" VerticalAlignment="Top" Width="1026" Source="Problem3.jpg" />
+        <Button x:Name="Button_Next" Content="NEXT" FontSize="25" HorizontalAlignment="Left" Margin="188,435,0,0" VerticalAlignment="Top" Width="1026" Height="50" Click="Button_Next_Click"/>
+
+
+
+
+
+
+
+    </Grid>
+</Window>

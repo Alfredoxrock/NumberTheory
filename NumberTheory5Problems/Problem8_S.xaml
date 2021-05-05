@@ -1,0 +1,27 @@
+﻿<Window x:Class="NumberTheory5Problems.Problem8_S"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NumberTheory5Problems"
+        mc:Ignorable="d"
+        Title="Problem8_S" Height="800" Width="1250" WindowState="Maximized">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="MathWP.jpg"/>
+        </Grid.Background>
+        <Label Content="PROBLEM 8" HorizontalAlignment="Center" VerticalAlignment="top" FontSize="90" Background="{x:Null}" FontFamily="Army Buster" Foreground="#FFF6FFED" Height="111" Margin="433,0"/>
+        <TextBlock x:Name="Textbox_Output" FontSize="15" HorizontalAlignment="Left" Margin="154,152,0,0" TextWrapping="Wrap" Text="WAITING FOR USER TO INSERT VALUES" Padding="20,20,20,20" VerticalAlignment="Top" Height="477" Width="1007" Background="Black" Foreground="#FF00FF17" FontFamily="Courier New"/>
+        <TextBox x:Name="Textbox_n" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Black" FontSize="25" HorizontalAlignment="Left" Margin="154,692,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="50" Width="132" Foreground="#FF29FF00" FontFamily="Courier New"/>
+        <TextBox x:Name="Textbox_k" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Black" FontSize="25" HorizontalAlignment="Left" Margin="307,692,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="50" Width="132" Foreground="#FF29FF00" FontFamily="Courier New"/>
+        <TextBox x:Name="Textbox_powN" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Black" FontSize="25" HorizontalAlignment="Left" Margin="459,692,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="50" Width="164" Foreground="#FF29FF00" FontFamily="Courier New"/>
+        <TextBox x:Name="Textbox_PowK" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Black" FontSize="25" HorizontalAlignment="Left" Margin="640,692,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="50" Width="164" Foreground="#FF29FF00" FontFamily="Courier New"/>
+        <Label x:Name="Label_n" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="N MAX" Background="White" FontSize="25" HorizontalAlignment="Left" Margin="154,634,0,0" VerticalAlignment="Top" Height="50" Width="132" Foreground="Black" FontFamily="Courier New" FontWeight="Bold"/>
+        <Label x:Name="Label_n_Copy" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="K MAX" Background="White" FontSize="25" HorizontalAlignment="Left" Margin="307,634,0,0" VerticalAlignment="Top" Height="50" Width="132" Foreground="Black" FontFamily="Courier New" FontWeight="Bold"/>
+        <Label x:Name="Label_n_Copy1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="POWER OF N" Background="White" FontSize="25" HorizontalAlignment="Left" Margin="459,634,0,0" VerticalAlignment="Top" Height="50" Width="164" Foreground="Black" FontFamily="Courier New" FontWeight="Bold"/>
+        <Label x:Name="Label_n_Copy2" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="POWER OF K" Background="White" FontSize="25" HorizontalAlignment="Left" Margin="640,634,0,0" VerticalAlignment="Top" Height="50" Width="164" Foreground="Black" FontFamily="Courier New" FontWeight="Bold"/>
+        <Button x:Name="Button_Next" Content="RUN" FontSize="25" HorizontalAlignment="Left" Margin="833,634,0,0" VerticalAlignment="Top" Width="249" Height="50" Click="Button_Next_Click" />
+        <Button x:Name="Button_Next1" Content="NEXT" FontSize="25" HorizontalAlignment="Left" Margin="833,692,0,0" VerticalAlignment="Top" Width="249" Height="50" Background="#FF0B5719" Click="Button_Next1_Click" />
+
+    </Grid>
+</Window>
